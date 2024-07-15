@@ -5,7 +5,6 @@ body {
 .post {
     background: white;
     width: 30vw;
-    padding: 15px;
     margin: auto;
 }
 
@@ -13,6 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding: 10px 10px 0 10px;
 }
 
 #publisher {
@@ -30,9 +30,17 @@ body {
     line-height: 0.2;
 }
 
+.image {
+    padding: 0 0 0 0 !important;
+}
+
 img {
     width: 100%;
     object-fit: cover;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#text {
+    padding: 0 10px 10px 10px;
 }
