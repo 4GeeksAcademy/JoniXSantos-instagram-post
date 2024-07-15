@@ -1,0 +1,38 @@
+body {
+    background: black;
+}
+
+.post {
+    background: white;
+    width: 30vw;
+    padding: 15px;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#publisher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#publisher i {
+    margin-right: 10px;
+}
+
+#publisher p {
+    font-size: small;
+    line-height: 0.2;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
